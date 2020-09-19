@@ -7,7 +7,7 @@ import nltk
 
 CHAT_NAME = "PIONEER_CHAT.TXT"
 STOPWORDS_FILENAME = "STOPWORDS.TXT"
-FONTPATH = 'C:\\Users\\terra\\Desktop\\just_for_fun\\FreeSans\\FreeSansBold.ttf'
+FONTPATH = 'FreeSans\\FreeSansBold.ttf'
 
 def get_file_text(filename):
     f = codecs.open(filename, 'r', 'utf-8')
